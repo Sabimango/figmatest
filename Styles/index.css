@@ -15,7 +15,9 @@
 .logo-dot {
     color: #33A2E0;
 }
-
+.menu-container .button-container {
+    display: inline-block;
+}
 .topnav {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -31,7 +33,12 @@
     word-spacing: 40px;
 }
 
-.sign-in {
+.sign-in-btn {
+    margin-top: 48px;
+    margin-right: 228px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: none;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -41,8 +48,6 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: #1B0A42;
-    margin-top: 48px;
-    margin-right: 228px;
 }
 
 .sign-up-btn{
