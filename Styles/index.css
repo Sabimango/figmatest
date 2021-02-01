@@ -16,9 +16,58 @@
     color: #33A2E0;
 }
 
+.topnav {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    margin-top: 48px;
+    margin-left: 97.5px;
+    word-spacing: 40px;
+}
+
+.sign-in {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    margin-top: 48px;
+    margin-right: 228px;
+}
+
+.sign-up-btn{
+    width: 120px;
+    height: 59.65px;
+    margin-top: 30px;
+    margin-right: 68px;
+    background-color: #33A2E0;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
 section {
  display: inline-block;
 }
+
 .main-title {
     max-width: 495px;
     width: 100%;
@@ -67,4 +116,4 @@ section {
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-/* fixa menyn uppe, få upp bilden till höger, fixa circular std font */
+/* fixa menyn uppe, fixa circular std font */
