@@ -1,9 +1,34 @@
+.menu-container {
+    border: none;
+    padding: 10px;
+  }
+  .menu-container::after { /*a hack "clearfix" to adjust the div*/
+    content: '';
+    clear: both;
+    display: table;
+  }
+  .header-left {
+    border: none;
+    float: left;
+  }
+  .header-left * {
+    display: inline-block;
+  }
+  .topnav {
+    padding-left: 30px;
+  }
+  .header-right {
+    border: none;
+    text-align: right;
+    margin-left: 600px;
+}
+
 .logo{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
-    line-height: 48px;
+    line-height: 24px;
     /* or 160% */
     letter-spacing: -0.02em;
     color: #0A1B32;
@@ -15,9 +40,7 @@
 .logo-dot {
     color: #33A2E0;
 }
-.menu-container .button-container {
-    display: inline-block;
-}
+
 .topnav {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -35,7 +58,7 @@
 
 .sign-in-btn {
     margin-top: 48px;
-    margin-right: 228px;
+    margin-right: 40.3px;
     background-color: #ffffff;
     border-radius: 6px;
     border: none;
@@ -62,7 +85,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 32px;
+    line-height: 24px;
     /* or 200% */
     text-align: center;
     letter-spacing: 0.02em;
@@ -121,4 +144,3 @@ section {
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-/* fixa menyn uppe, fixa circular std font */
